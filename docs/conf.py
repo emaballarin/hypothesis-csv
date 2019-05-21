@@ -81,7 +81,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'hypothesis-csv'
+project = u'hypothesis-csv-chobeat'
 copyright = u'2018, Simone Robutti'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -232,7 +232,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'user_guide.tex', u'hypothesis-csv Documentation',
+  ('index', 'user_guide.tex', u'hypothesis-csv-chobeat Documentation',
    u'Simone Robutti', 'manual'),
 ]
 

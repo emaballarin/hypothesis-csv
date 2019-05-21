@@ -8,7 +8,7 @@ PAPER         =
 BUILDDIR      = _build
 AUTODOCDIR    = api
 AUTODOCBUILD  = sphinx-apidoc
-PROJECT       = hypothesis-csv
+PROJECT       = hypothesis-csv-chobeat
 MODULEDIR     = ../src/hypothesis_csv
 
 # User-friendly check for sphinx-build

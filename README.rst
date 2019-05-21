@@ -1,9 +1,9 @@
 ==============
-hypothesis-csv
+hypothesis-csv-chobeat
 ==============
 
 
-:code:`hypothesis-csv` is an extension to the `hypothesis` framework. The goal of this framework is to offer a flexible tool
+:code:`hypothesis-csv-chobeat` is an extension to the `hypothesis` framework. The goal of this framework is to offer a flexible tool
 to perform generative-testing/property-based testing for software that accepts CSV files as an input.
 
 
@@ -11,7 +11,7 @@ to perform generative-testing/property-based testing for software that accepts C
 Description
 ===========
 
-`hypothesis-csv` is designed with two main use cases in mind:
+`hypothesis-csv-chobeat` is designed with two main use cases in mind:
 
 * test software that accepts a wide spectrum of CSV formats and doesn't make assumptions on the content (i.e. CSV parsers)
 * test software that accepts very specific CSV formats and makes assumption on the content, types and header fields.
@@ -95,4 +95,3 @@ Generate CSV with drawns dialects
     @given(csv=csv(columns=[text(),int(),float()], dialect=None))
     def test_my_csv_parse(csv):
         ...
-

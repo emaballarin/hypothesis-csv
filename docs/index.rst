@@ -1,8 +1,8 @@
 ==============
-hypothesis-csv
+hypothesis-csv-chobeat
 ==============
 
-This is the documentation of **hypothesis-csv**.
+This is the documentation of **hypothesis-csv-chobeat**.
 
 .. note::
 
