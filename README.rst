@@ -28,7 +28,7 @@ Generate arbitrary, non-empty CSV
 .. code-block:: python
     :name: Generate arbitrary, non-empty CSV
 
-    from hypothesis_csv.strategies import csv
+    from hypothesis_csv_chobeat.strategies import csv
     @given(csv=csv())
     def test_my_csv_parse(csv):
         parsed_csv=my_csv_parser(csv)
@@ -40,7 +40,7 @@ Generate CSV of a given size (5 columns x 20 rows)
 .. code-block:: python
     :name: Generate CSV of a given size (5 columns x 20 rows)
 
-    from hypothesis_csv.strategies import csv
+    from hypothesis_csv_chobeat.strategies import csv
     @given(csv=csv(lines=20,header=5))
     def test_my_csv_parse(csv):
         parsed_csv=my_csv_parser(csv)
@@ -54,7 +54,7 @@ Generate CSV with a header
 .. code-block:: python
     :name: Generate CSV with a header
 
-    from hypothesis_csv.strategies import csv
+    from hypothesis_csv_chobeat.strategies import csv
     @given(csv=csv(header=["timestamp","val_1","val_2"]))
     def test_my_csv_parse(csv):
         parsed_csv=my_csv_parser(csv)
@@ -67,7 +67,7 @@ Generate CSV with columns of a given type
 .. code-block:: python
     :name: Generate CSV with columns of a given type
 
-    from hypothesis_csv.strategies import csv
+    from hypothesis_csv_chobeat.strategies import csv
     @given(csv=csv(columns=[text(),int(),float()]))
     def test_my_csv_parse(csv):
         parsed_csv=my_csv_parser(csv)
@@ -80,7 +80,7 @@ Generate CSV with a given dialect
 .. code-block:: python
     :name: Generate CSV in a given dialect
 
-    from hypothesis_csv.strategies import csv
+    from hypothesis_csv_chobeat.strategies import csv
     @given(csv=csv(columns=[text(),int(),float()], dialect="excel-tab"))
     def test_my_csv_parse(csv):
         ...
@@ -91,7 +91,7 @@ Generate CSV with drawns dialects
 .. code-block:: python
     :name: Generate CSV in a given dialect
 
-    from hypothesis_csv.strategies import csv
+    from hypothesis_csv_chobeat.strategies import csv
     @given(csv=csv(columns=[text(),int(),float()], dialect=None))
     def test_my_csv_parse(csv):
         ...

@@ -5,7 +5,7 @@ from hypothesis.errors import InvalidArgument
 from hypothesis.strategies import composite, integers, sampled_from, floats, text
 from multimethod import overload
 
-from hypothesis_csv.type_utils import *
+from hypothesis_csv_chobeat.type_utils import *
 
 valid_column_types = [integers, floats,
                       functools.partial(text, min_size=1, max_size=10,

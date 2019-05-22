@@ -8,7 +8,7 @@ from hypothesis.errors import InvalidArgument
 from meza.io import read_csv
 from meza.process import detect_types
 
-from hypothesis_csv.strategies import data_rows, csv
+from hypothesis_csv_chobeat.strategies import data_rows, csv
 
 
 def csv2records(string, has_header=True, delimiter=","):

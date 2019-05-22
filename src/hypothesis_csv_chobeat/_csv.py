@@ -3,8 +3,8 @@ from io import StringIO
 
 from hypothesis.strategies import lists
 
-from hypothesis_csv._data_rows import *
-from hypothesis_csv.type_utils import *
+from hypothesis_csv_chobeat._data_rows import *
+from hypothesis_csv_chobeat.type_utils import *
 
 
 def _records_to_csv(data, dialect, has_header=True):

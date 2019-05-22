@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-    Setup file for hypothesis_csv.
+    Setup file for hypothesis_csv_chobeat.
 
     This file was generated with PyScaffold 3.0.1.
     PyScaffold helps you to put up the scaffold of your new Python project.
@@ -14,9 +14,9 @@ from setuptools import setup
 # Add here console scripts and other entry points in ini-style format
 entry_points = """
 [console_scripts]
-# script_name = hypothesis_csv.module:function
+# script_name = hypothesis_csv_chobeat.module:function
 # For example:
-# fibonacci = hypothesis_csv.skeleton:run
+# fibonacci = hypothesis_csv_chobeat.skeleton:run
 """
 
 
